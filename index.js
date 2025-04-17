@@ -1,9 +1,14 @@
 "use strict"
 
-import { emoticonToEmoji } from "./stringUtils.js"
+
 import { add, multiply } from "./mathUtils.js"
+import { toUpperCase } from "./stringUtils.js";
 
-console.log(emoticonToEmoji(":)"));
 
-console.log(add(5, 5));
-console.log(multiply(50, 50));
+
+console.log(toUpperCase("the isosceles triangle"))
+
+console.log("Addition: 5 + 5 =", add(5, 5)) 
+
+console.log("Multiplication: 10 x 10 =", multiply(50, 50));
+

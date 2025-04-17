@@ -1,7 +1,3 @@
-export function emoticonToEmoji(text) {
-    const emoticonMap = {
-        ":)": "😊",
-        ":P": "😛"
-    };
-    return emoticonMap[text];
+export function toUpperCase(str) {
+    return str.toUpperCase();
 }
